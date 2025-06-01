@@ -5,7 +5,7 @@ import { LastWinners } from "../components/last-winners/last-winners";
 
 function App() {
   return (
-    <div className="bg-gray-900 min-h-screen px-5 md:px-10 lg:px-20 flex flex-col gap-20 justify-center overflow-hidden">
+    <div className="bg-gray-900 min-h-screen py-5 px-5 md:px-10 lg:px-20 flex flex-col gap-20 justify-center overflow-hidden">
       <LastWinners />
       <Roulette />
       <div className="flex flex-wrap md:flex-nowrap justify-between gap-4">
