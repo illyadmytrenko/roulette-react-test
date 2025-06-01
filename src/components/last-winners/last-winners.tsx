@@ -53,7 +53,7 @@ export function LastWinners() {
           ))}
       </div>
 
-      <div className="flex gap-5 items-center">
+      <div className="flex gap-5 items-center flex-col sm:flex-row">
         <span className="uppercase font-bold text-gray-600">
           Last {recentHistory.length}
         </span>
